@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>895</width>
+    <height>582</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AshX</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QTableView" name="tableView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>895</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="newfileAction"/>
+    <addaction name="actionInsert"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionTools"/>
+    <addaction name="actionEncoding_Conversion"/>
+   </widget>
+   <widget class="QMenu" name="menuFamily_Tools">
+    <property name="title">
+     <string>Family Tools</string>
+    </property>
+    <addaction name="actionBuild_Family"/>
+   </widget>
+   <widget class="QMenu" name="menuPath_Tools">
+    <property name="title">
+     <string>Path Tools</string>
+    </property>
+    <addaction name="actionPath_Update"/>
+    <addaction name="actionRename_Files"/>
+   </widget>
+   <widget class="QMenu" name="menuField_Update">
+    <property name="title">
+     <string>Field Update</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionReplace"/>
+    <addaction name="actionMass_Replace"/>
+    <addaction name="actionAdd_Field"/>
+    <addaction name="actionRemove_Field"/>
+    <addaction name="actionMerge_Fields"/>
+   </widget>
+   <widget class="QMenu" name="menuQC">
+    <property name="title">
+     <string>QC</string>
+    </property>
+    <addaction name="actionCompare_Loadfile"/>
+   </widget>
+   <widget class="QMenu" name="menuDate_And_Time">
+    <property name="title">
+     <string>Date And Time</string>
+    </property>
+    <addaction name="actionFormat_Date_and_Time"/>
+    <addaction name="actionMerge_Date_And_Time"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuField_Update"/>
+   <addaction name="menuFamily_Tools"/>
+   <addaction name="menuDate_And_Time"/>
+   <addaction name="menuPath_Tools"/>
+   <addaction name="menuQC"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="newfileAction">
+   <property name="text">
+    <string>New File</string>
+   </property>
+  </action>
+  <action name="actionInsert">
+   <property name="text">
+    <string>Import</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionTools">
+   <property name="text">
+    <string>Tools</string>
+   </property>
+  </action>
+  <action name="actionReplace">
+   <property name="text">
+    <string>Replace</string>
+   </property>
+  </action>
+  <action name="actionMass_Replace">
+   <property name="text">
+    <string>Mass Replace</string>
+   </property>
+  </action>
+  <action name="actionAdd_Field">
+   <property name="text">
+    <string>Add Field</string>
+   </property>
+  </action>
+  <action name="actionBuild_Family">
+   <property name="text">
+    <string>Build Family</string>
+   </property>
+  </action>
+  <action name="actionPath_Update">
+   <property name="text">
+    <string>Path Update</string>
+   </property>
+  </action>
+  <action name="actionRename_Files">
+   <property name="text">
+    <string>Rename Files</string>
+   </property>
+  </action>
+  <action name="actionRemove_Field">
+   <property name="text">
+    <string>Remove Field</string>
+   </property>
+  </action>
+  <action name="actionCompare_Loadfile">
+   <property name="text">
+    <string>Compare Loadfile</string>
+   </property>
+  </action>
+  <action name="actionFormat_Date_and_Time">
+   <property name="text">
+    <string>Format  Date and Time</string>
+   </property>
+  </action>
+  <action name="actionMerge_Date_And_Time">
+   <property name="text">
+    <string>Merge Date And Time</string>
+   </property>
+  </action>
+  <action name="actionMerge_Fields">
+   <property name="text">
+    <string>Merge Fields</string>
+   </property>
+  </action>
+  <action name="actionEncoding_Conversion">
+   <property name="text">
+    <string>Encoding Conversion</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
